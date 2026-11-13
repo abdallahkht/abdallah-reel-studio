@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://abdallahkht.github.io/abdallah-reel-studio/"><img src="assets/adobe-comparison-color.webp" width="100%" alt="عبدالله Reel Studio — من فكرتك إلى ريل جاهز. مهارات للمونتاج مع Claude وCodex، وواجهة لمراجعة الفيديو."></a>
+  <a href="https://abdallahkht.github.io/abdallah-reel-studio/?v=0.4.3"><img src="assets/adobe-comparison-color.webp" width="100%" alt="عبدالله Reel Studio — من فكرتك إلى ريل جاهز. مهارات للمونتاج مع Claude وCodex، وواجهة لمراجعة الفيديو."></a>
 </p>
 <p align="center" dir="rtl">
   <b>مساعدك يعمل المونتاج. وأنت تراجع اللمسات الأخيرة.</b><br>
@@ -12,11 +12,11 @@
   <img src="https://img.shields.io/badge/Review-local-19354a?style=flat-square" alt="Local review editor">
 </p>
 <p align="center">
-  <a href="https://abdallahkht.github.io/abdallah-reel-studio/"><b>شاهد المعرض</b></a> &nbsp;·&nbsp;
+  <a href="https://abdallahkht.github.io/abdallah-reel-studio/?v=0.4.3"><b>شاهد المعرض</b></a> &nbsp;·&nbsp;
   <a href="#workflow">طريقة العمل</a> &nbsp;·&nbsp;
   <a href="#review">المحرر</a> &nbsp;·&nbsp;
   <a href="#start">ابدأ هنا</a> &nbsp;·&nbsp;
-  <a href="https://github.com/abdallahkht/abdallah-reel-studio/releases/latest/download/abdallah-reel-studio-v0.4.2.zip"><b>تحميل ZIP</b></a>
+  <a href="https://github.com/abdallahkht/abdallah-reel-studio/releases/latest/download/abdallah-reel-studio-v0.4.3.zip"><b>تحميل ZIP</b></a>
 </p>
 
 <div dir="rtl">
@@ -40,13 +40,13 @@
 </div>
 
 <table><tr>
-<td width="33%" align="center"><a href="https://abdallahkht.github.io/abdallah-reel-studio/?demo=adobe"><img src="assets/previews/adobe-color.webp" width="100%" alt="ريل Adobe — النسخة الأولى"></a><br><b>Adobe · النسخة الأولى</b><br><a href="examples/adobe/before.mp4">قبل المونتاج</a> · <a href="examples/adobe/after.mp4">بعد المونتاج</a></td>
-<td width="33%" align="center"><a href="https://abdallahkht.github.io/abdallah-reel-studio/?demo=meta-ads"><img src="assets/previews/meta-ads-claude-color.webp" width="100%" alt="Meta Ads مع Claude"></a><br><b>Meta Ads · Claude</b></td>
-<td width="33%" align="center"><a href="https://abdallahkht.github.io/abdallah-reel-studio/?demo=dots"><img src="assets/previews/dots-color.webp" width="100%" alt="ريل Dots وMuse وGrok"></a><br><b>Dots · Muse · Grok</b></td>
+<td width="33%" align="center"><a href="https://abdallahkht.github.io/abdallah-reel-studio/?v=0.4.3&demo=adobe"><img src="assets/previews/adobe-color.webp" width="100%" alt="ريل Adobe — النسخة الأولى"></a><br><b>Adobe · النسخة الأولى</b><br><a href="examples/silent/before.mp4">قبل المونتاج</a> · <a href="examples/silent/adobe.mp4">بعد المونتاج</a></td>
+<td width="33%" align="center"><a href="https://abdallahkht.github.io/abdallah-reel-studio/?v=0.4.3&demo=meta-ads"><img src="assets/previews/meta-ads-claude-color.webp" width="100%" alt="Meta Ads مع Claude"></a><br><b>Meta Ads · Claude</b></td>
+<td width="33%" align="center"><a href="https://abdallahkht.github.io/abdallah-reel-studio/?v=0.4.3&demo=dots"><img src="assets/previews/dots-color.webp" width="100%" alt="ريل Dots وMuse وGrok"></a><br><b>Dots · Muse · Grok</b></td>
 </tr><tr>
-<td width="33%" align="center"><a href="https://abdallahkht.github.io/abdallah-reel-studio/?demo=find-skills"><img src="assets/previews/find-skills-color.webp" width="100%" alt="Find Skills — النسخة الأولى"></a><br><b>Find Skills · النسخة الأولى</b></td>
-<td width="33%" align="center"><a href="https://abdallahkht.github.io/abdallah-reel-studio/?demo=find-skills-alternative"><img src="assets/previews/find-skills-alternative-color.webp" width="100%" alt="Find Skills — موشن جديد من تصوير الكاميرا"></a><br><b>Find Skills · ستايل جديد</b></td>
-<td width="33%" align="center"><a href="https://abdallahkht.github.io/abdallah-reel-studio/?demo=seven-ways-roi"><img src="assets/previews/seven-ways-roi-color.webp" width="100%" alt="ريل 7 Ways وROI — OS"></a><br><b>7 Ways + ROI · OS</b></td>
+<td width="33%" align="center"><a href="https://abdallahkht.github.io/abdallah-reel-studio/?v=0.4.3&demo=find-skills"><img src="assets/previews/find-skills-color.webp" width="100%" alt="Find Skills — النسخة الأولى"></a><br><b>Find Skills · النسخة الأولى</b></td>
+<td width="33%" align="center"><a href="https://abdallahkht.github.io/abdallah-reel-studio/?v=0.4.3&demo=find-skills-alternative"><img src="assets/previews/find-skills-corrected-color.webp" width="100%" alt="Find Skills — موشن جديد من تصوير الكاميرا"></a><br><b>Find Skills · ستايل جديد</b></td>
+<td width="33%" align="center"><a href="https://abdallahkht.github.io/abdallah-reel-studio/?v=0.4.3&demo=seven-ways-roi"><img src="assets/previews/seven-ways-roi-color.webp" width="100%" alt="ريل 7 Ways وROI — OS"></a><br><b>7 Ways + ROI · OS</b></td>
 </tr></table>
 
 <div dir="rtl">
@@ -86,7 +86,7 @@
 
 ## ابدأ هنا
 
-**[نزّل ZIP](https://github.com/abdallahkht/abdallah-reel-studio/releases/latest/download/abdallah-reel-studio-v0.4.2.zip)**، فك الضغط، وافتح المجلد في Claude Code أو Codex. ثم أرسل:
+**[نزّل ZIP](https://github.com/abdallahkht/abdallah-reel-studio/releases/latest/download/abdallah-reel-studio-v0.4.3.zip)**، فك الضغط، وافتح المجلد في Claude Code أو Codex. ثم أرسل:
 
 > جهّز هذا المشروع وثبّت المهارات الموجودة فيه بدون استبدال مهاراتي الحالية. افحص Python وFFmpeg ثم افتح المحرر.
 

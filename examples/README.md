@@ -7,13 +7,13 @@
 
 | المثال | شاهد |
 |---|---|
-| Adobe قبل الموشن والكابشن | [MP4](adobe/before.mp4) |
-| Adobe — المونتاج الأول | [MP4](adobe/after.mp4) |
-| Meta Ads — Claude | [MP4](meta-ads-claude.mp4) |
-| Dots / Muse / Grok | [MP4](dots-muse-grok.mp4) |
-| 7 Ways + ROI — OS | [MP4](seven-ways-roi.mp4) |
-| Find Skills — النسخة الأولى | [MP4](find-skills.mp4) |
-| Find Skills — ستايل جديد | [MP4](find-skills-alternative-v2.mp4) · [ملاحظات المونتاج](find-skills-edit-notes.md) |
+| Adobe قبل الموشن والكابشن | [MP4](silent/before.mp4) |
+| Adobe — المونتاج الأول | [MP4](silent/adobe.mp4) |
+| Meta Ads — Claude | [MP4](silent/meta-ads.mp4) |
+| Dots / Muse / Grok | [MP4](silent/dots.mp4) |
+| 7 Ways + ROI — OS | [MP4](silent/seven-ways-roi.mp4) |
+| Find Skills — النسخة الأولى | [MP4](silent/find-skills.mp4) |
+| Find Skills — ستايل جديد | [MP4](silent/find-skills-corrected.mp4) · [ملاحظات المونتاج](find-skills-edit-notes.md) |
 
 شارك عبدالله هذه الفيديوهات للنشر هنا. ملف «قبل» هو تصوير الكاميرا المزوّد، وقد يحتوي قصوص كلام مسبقة. النسخة الأولى وDots أعمال سابقة؛ النسخة البديلة تستخدم مهارات عبدالله الشخصية الحالية. هذه أمثلة للأسلوب، وليست وعداً بنتيجة تلقائية مماثلة من المهارات المختصرة المرفقة.
 
@@ -41,3 +41,5 @@
 أضيف ريل 7 Ways + ROI في الإصدار 0.4.1 ليصبح المعرض ستة أمثلة ريلز. نسخة مضغوطة للعرض، بنفس المونتاج والألوان.
 
 الإصدار 0.4.2: استُبدل مثال Adobe البديل بريل Meta Ads، وغُطّيت لحظات قراءة السكربت في Find Skills بموشن كامل الشاشة. أمثلة المعرض تبدأ مكتومة؛ مقارنة Adobe الرئيسية تعمل بالصوت عند الضغط على التشغيل. نسخة Adobe البديلة السابقة محفوظة في الملفات وتاريخ الإصدارات.
+
+الإصدار 0.4.3: ملفات العرض الستة وملف المقارنة الخام بلا أي مسار صوتي، ولا يوجد تحكم صوت في مشغّلات الأمثلة. تعمل كمعاينات متحركة صامتة. مقارنة Adobe الرئيسية وحدها تحتفظ بالصوت. روابط Find Skills القديمة أصبحت تشير إلى المونتاج المصحّح أيضاً.

@@ -2,7 +2,7 @@
 
 ## أسهل طريقة
 
-نزّل [ZIP](https://github.com/abdallahkht/abdallah-reel-studio/releases/latest/download/abdallah-reel-studio-v0.4.2.zip)، وفك الضغط. افتح المجلد في مساعدك واطلب منه تجهيز المشروع. لا تحتاج حساب GitHub لتنزيل المستودع العام.
+نزّل [ZIP](https://github.com/abdallahkht/abdallah-reel-studio/releases/latest/download/abdallah-reel-studio-v0.4.3.zip)، وفك الضغط. افتح المجلد في مساعدك واطلب منه تجهيز المشروع. لا تحتاج حساب GitHub لتنزيل المستودع العام.
 
 المتطلبات: **Python 3.10+** و**FFmpeg**، مع وصولك الخاص إلى Claude Code أو Codex للمونتاج بالذكاء الاصطناعي. المحرر نفسه لا يحتاج اشتراكاً أو API key.
 

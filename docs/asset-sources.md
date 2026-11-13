@@ -29,3 +29,7 @@ Abdallah supplied and explicitly authorized his finished “Reel 3 - 7 Ways + RO
 ### Reading coverage, sound defaults and Meta Ads — November 14, 2026
 
 Abdallah requested replacing the alternate Adobe gallery card with his supplied Meta Ads and Claude Reel. The complete web copy preserves the edit and BT.709 color, with download compression. Prior files remain preserved. Find Skills alternate v2 covers the entire 8.833–12.167-second reading section with new full-frame motion while retaining narration and timing. All gallery and modal players start muted. Only the main Adobe comparison starts with sound when the viewer presses play; its audio is the matching first 18 seconds from the supplied edited Adobe video. The README animated WebP remains silent by format.
+
+### Permanently silent showcase — November 14, 2026
+
+User clarified that showcase examples must have no recoverable audio through the player, not merely start muted. Seven stream-copied video-only files in examples/silent contain zero audio streams. Gallery and modal omit native controls and loop silently; the main Adobe comparison retains its audio and explicit play controls. The original voiced editing assets remain separate for the editor/history. Legacy Find Skills alternate URLs now contain the corrected reading-cover edit, and the page uses a versioned JS filename to prevent a stale gallery script selecting an old asset. Original pre-revision files are preserved in Git history and a private local backup.
