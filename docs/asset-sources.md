@@ -8,8 +8,12 @@
 
 ## Real Reel showcase — November 13, 2026
 
-Abdallah explicitly selected and authorized these files for his public repository: Adobe camera footage, its supplied edited version, and the Dots/Muse/Grok Reel. The edited Adobe MP4 is copied unchanged; the other web copies are compressed for download. The animated comparison shows an 18-second excerpt; full videos are linked below it.
+Abdallah explicitly selected and authorized these files for his public repository: Adobe camera footage, its supplied edited version, and the Dots/Muse/Grok Reel. The edited Adobe MP4 is copied unchanged; the other web copies are compressed for download. The gallery comparison shows an 18-second excerpt; the README uses a 12-second lossless full-color animated WebP. Normal video players are shown below.
 
 The alternate Adobe edit was created from the supplied camera footage using Abdallah’s existing personal editing/motion skills. Its GitHub page capture comes from https://github.com/storytold/photocraft . Brand marks remain the property of their respective owners. Private font files and standalone sound-library assets are not distributed; they appear only within finished rendered media. The public alternate copy omits the nasheed background bed.
 
 The repository MIT license covers project code and original templates. It does not relicense third-party logos, screenshots, fonts, audio, or other embedded assets. Abdallah’s example videos are provided for viewing and learning; use your own footage and appropriately licensed assets for your published work.
+
+### Color-preserving previews
+
+The first GIF previews used a128-color palette and visibly posterized skin tones. Current README previews use lossless animated WebP, generated from explicitly converted BT.709 source footage. The gallery banner is encoded with consistent limited-range BT.709 metadata. No color grade, saturation effect or skin-tone filter is applied. Previous GIFs remain in history/assets but are no longer displayed. The supplied edited Adobe MP4 is still byte-for-byte unchanged.

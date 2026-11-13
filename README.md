@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://abdallahkht.github.io/abdallah-reel-studio/"><img src="assets/adobe-comparison.gif" width="100%" alt="عبدالله Reel Studio — من فكرتك إلى ريل جاهز. مهارات للمونتاج مع Claude وCodex، وواجهة لمراجعة الفيديو."></a>
+  <a href="https://abdallahkht.github.io/abdallah-reel-studio/"><img src="assets/adobe-comparison-color.webp" width="100%" alt="عبدالله Reel Studio — من فكرتك إلى ريل جاهز. مهارات للمونتاج مع Claude وCodex، وواجهة لمراجعة الفيديو."></a>
 </p>
 <p align="center" dir="rtl">
   <b>مساعدك يعمل المونتاج. وأنت تراجع اللمسات الأخيرة.</b><br>
@@ -40,9 +40,9 @@
 </div>
 
 <table><tr>
-<td width="33%" align="center"><a href="https://abdallahkht.github.io/abdallah-reel-studio/?demo=adobe"><img src="assets/previews/adobe.gif" width="100%" alt="ريل Adobe — النسخة الأولى"></a><br><b>Adobe · النسخة الأولى</b><br><a href="examples/adobe/before.mp4">قبل المونتاج</a> · <a href="examples/adobe/after.mp4">بعد المونتاج</a></td>
-<td width="33%" align="center"><a href="https://abdallahkht.github.io/abdallah-reel-studio/?demo=alternative"><img src="assets/previews/adobe-alternative.gif" width="100%" alt="نفس الخام بموشن أبيض وأزرق"></a><br><b>Adobe · ستايل مختلف</b><br><a href="examples/adobe/alternative.mp4">شاهد الفيديو</a> · <a href="examples/adobe/edit-notes.md">كيف اتعمل؟</a></td>
-<td width="33%" align="center"><a href="https://abdallahkht.github.io/abdallah-reel-studio/?demo=dots"><img src="assets/previews/dots.gif" width="100%" alt="ريل Dots وMuse وGrok"></a><br><b>Dots · Muse · Grok</b><br><a href="examples/dots-muse-grok.mp4">شاهد الفيديو الكامل</a></td>
+<td width="33%" align="center"><a href="https://abdallahkht.github.io/abdallah-reel-studio/?demo=adobe"><img src="assets/previews/adobe-color.webp" width="100%" alt="ريل Adobe — النسخة الأولى"></a><br><b>Adobe · النسخة الأولى</b><br><a href="examples/adobe/before.mp4">قبل المونتاج</a> · <a href="examples/adobe/after.mp4">بعد المونتاج</a></td>
+<td width="33%" align="center"><a href="https://abdallahkht.github.io/abdallah-reel-studio/?demo=alternative"><img src="assets/previews/adobe-alternative-color.webp" width="100%" alt="نفس الخام بموشن أبيض وأزرق"></a><br><b>Adobe · ستايل مختلف</b></td>
+<td width="33%" align="center"><a href="https://abdallahkht.github.io/abdallah-reel-studio/?demo=dots"><img src="assets/previews/dots-color.webp" width="100%" alt="ريل Dots وMuse وGrok"></a><br><b>Dots · Muse · Grok</b></td>
 </tr></table>
 
 <div dir="rtl">
