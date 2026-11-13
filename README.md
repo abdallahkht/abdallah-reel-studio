@@ -16,7 +16,7 @@
   <a href="#workflow">طريقة العمل</a> &nbsp;·&nbsp;
   <a href="#review">المحرر</a> &nbsp;·&nbsp;
   <a href="#start">ابدأ هنا</a> &nbsp;·&nbsp;
-  <a href="https://github.com/abdallahkht/abdallah-reel-studio/releases/latest/download/abdallah-reel-studio-v0.3.0.zip"><b>تحميل ZIP</b></a>
+  <a href="https://github.com/abdallahkht/abdallah-reel-studio/releases/latest/download/abdallah-reel-studio-v0.4.0.zip"><b>تحميل ZIP</b></a>
 </p>
 
 <div dir="rtl">
@@ -43,11 +43,15 @@
 <td width="33%" align="center"><a href="https://abdallahkht.github.io/abdallah-reel-studio/?demo=adobe"><img src="assets/previews/adobe-color.webp" width="100%" alt="ريل Adobe — النسخة الأولى"></a><br><b>Adobe · النسخة الأولى</b><br><a href="examples/adobe/before.mp4">قبل المونتاج</a> · <a href="examples/adobe/after.mp4">بعد المونتاج</a></td>
 <td width="33%" align="center"><a href="https://abdallahkht.github.io/abdallah-reel-studio/?demo=alternative"><img src="assets/previews/adobe-alternative-color.webp" width="100%" alt="نفس الخام بموشن أبيض وأزرق"></a><br><b>Adobe · ستايل مختلف</b></td>
 <td width="33%" align="center"><a href="https://abdallahkht.github.io/abdallah-reel-studio/?demo=dots"><img src="assets/previews/dots-color.webp" width="100%" alt="ريل Dots وMuse وGrok"></a><br><b>Dots · Muse · Grok</b></td>
+</tr><tr>
+<td width="33%" align="center"><a href="https://abdallahkht.github.io/abdallah-reel-studio/?demo=find-skills"><img src="assets/previews/find-skills-color.webp" width="100%" alt="Find Skills — النسخة الأولى"></a><br><b>Find Skills · النسخة الأولى</b></td>
+<td width="33%" align="center"><a href="https://abdallahkht.github.io/abdallah-reel-studio/?demo=find-skills-alternative"><img src="assets/previews/find-skills-alternative-color.webp" width="100%" alt="Find Skills — موشن جديد من تصوير الكاميرا"></a><br><b>Find Skills · ستايل جديد</b></td>
+<td width="33%"></td>
 </tr></table>
 
 <div dir="rtl">
 
-النسخة الأولى وريل Dots من أعمال عبدالله السابقة. النسخة البديلة أُعدّت بمهاراته الشخصية الحالية؛ المهارات المرفقة نقطة بداية لتطوير أسلوبك. [أمثلة الموشن القابلة للتعديل](motion/README.md) متوفرة أيضاً.
+النسخ الأولى وريل Dots من أعمال عبدالله السابقة. نسخة Find Skills الجديدة تستخدم تصوير الكاميرا بموشن HyperFrames جديد، بدون الـB-roll القديم. النسخة البديلة أُعدّت بمهاراته الشخصية الحالية؛ المهارات المرفقة نقطة بداية لتطوير أسلوبك. [أمثلة الموشن القابلة للتعديل](motion/README.md) متوفرة أيضاً.
 
 <a id="workflow"></a>
 
@@ -82,7 +86,7 @@
 
 ## ابدأ هنا
 
-**[نزّل ZIP](https://github.com/abdallahkht/abdallah-reel-studio/releases/latest/download/abdallah-reel-studio-v0.3.0.zip)**، فك الضغط، وافتح المجلد في Claude Code أو Codex. ثم أرسل:
+**[نزّل ZIP](https://github.com/abdallahkht/abdallah-reel-studio/releases/latest/download/abdallah-reel-studio-v0.4.0.zip)**، فك الضغط، وافتح المجلد في Claude Code أو Codex. ثم أرسل:
 
 > جهّز هذا المشروع وثبّت المهارات الموجودة فيه بدون استبدال مهاراتي الحالية. افحص Python وFFmpeg ثم افتح المحرر.
 

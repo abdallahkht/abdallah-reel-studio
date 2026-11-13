@@ -16,4 +16,8 @@ The repository MIT license covers project code and original templates. It does n
 
 ### Color-preserving previews
 
-The first GIF previews used a128-color palette and visibly posterized skin tones. Current README previews use lossless animated WebP, generated from explicitly converted BT.709 source footage. The gallery banner is encoded with consistent limited-range BT.709 metadata. No color grade, saturation effect or skin-tone filter is applied. Previous GIFs remain in history/assets but are no longer displayed. The supplied edited Adobe MP4 is still byte-for-byte unchanged.
+The first GIF previews used a 128-color palette and visibly posterized skin tones. Current README previews use lossless animated WebP, generated from explicitly converted BT.709 source footage. The gallery banner is encoded with consistent limited-range BT.709 metadata. No color grade, saturation effect or skin-tone filter is applied. Previous GIFs remain in history/assets but are no longer displayed. The supplied edited Adobe MP4 is still byte-for-byte unchanged.
+
+### Find Skills examples — November 13, 2026
+
+Abdallah supplied and authorized the Find Skills Reel for this public showcase and requested a different edit using only his camera footage. The first version is a web-compressed copy of his supplied export. The alternative uses his clean camera track and newly authored HyperFrames/GSAP motion, including an adapted spring-stack-shuffle component from the installed HyperFrames registry. No B-roll from the original edit was reused. Real Claude/OpenAI brand geometry comes from his existing logo library. Private fonts and standalone audio assets remain local; the public alternate omits the background bed. Both previews use lossless animated WebP.
