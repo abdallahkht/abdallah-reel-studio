@@ -16,7 +16,7 @@
   <a href="#workflow">طريقة العمل</a> &nbsp;·&nbsp;
   <a href="#review">المحرر</a> &nbsp;·&nbsp;
   <a href="#start">ابدأ هنا</a> &nbsp;·&nbsp;
-  <a href="https://github.com/abdallahkht/abdallah-reel-studio/releases/latest/download/abdallah-reel-studio-v0.4.1.zip"><b>تحميل ZIP</b></a>
+  <a href="https://github.com/abdallahkht/abdallah-reel-studio/releases/latest/download/abdallah-reel-studio-v0.4.2.zip"><b>تحميل ZIP</b></a>
 </p>
 
 <div dir="rtl">
@@ -41,7 +41,7 @@
 
 <table><tr>
 <td width="33%" align="center"><a href="https://abdallahkht.github.io/abdallah-reel-studio/?demo=adobe"><img src="assets/previews/adobe-color.webp" width="100%" alt="ريل Adobe — النسخة الأولى"></a><br><b>Adobe · النسخة الأولى</b><br><a href="examples/adobe/before.mp4">قبل المونتاج</a> · <a href="examples/adobe/after.mp4">بعد المونتاج</a></td>
-<td width="33%" align="center"><a href="https://abdallahkht.github.io/abdallah-reel-studio/?demo=alternative"><img src="assets/previews/adobe-alternative-color.webp" width="100%" alt="نفس الخام بموشن أبيض وأزرق"></a><br><b>Adobe · ستايل مختلف</b></td>
+<td width="33%" align="center"><a href="https://abdallahkht.github.io/abdallah-reel-studio/?demo=meta-ads"><img src="assets/previews/meta-ads-claude-color.webp" width="100%" alt="Meta Ads مع Claude"></a><br><b>Meta Ads · Claude</b></td>
 <td width="33%" align="center"><a href="https://abdallahkht.github.io/abdallah-reel-studio/?demo=dots"><img src="assets/previews/dots-color.webp" width="100%" alt="ريل Dots وMuse وGrok"></a><br><b>Dots · Muse · Grok</b></td>
 </tr><tr>
 <td width="33%" align="center"><a href="https://abdallahkht.github.io/abdallah-reel-studio/?demo=find-skills"><img src="assets/previews/find-skills-color.webp" width="100%" alt="Find Skills — النسخة الأولى"></a><br><b>Find Skills · النسخة الأولى</b></td>
@@ -86,7 +86,7 @@
 
 ## ابدأ هنا
 
-**[نزّل ZIP](https://github.com/abdallahkht/abdallah-reel-studio/releases/latest/download/abdallah-reel-studio-v0.4.1.zip)**، فك الضغط، وافتح المجلد في Claude Code أو Codex. ثم أرسل:
+**[نزّل ZIP](https://github.com/abdallahkht/abdallah-reel-studio/releases/latest/download/abdallah-reel-studio-v0.4.2.zip)**، فك الضغط، وافتح المجلد في Claude Code أو Codex. ثم أرسل:
 
 > جهّز هذا المشروع وثبّت المهارات الموجودة فيه بدون استبدال مهاراتي الحالية. افحص Python وFFmpeg ثم افتح المحرر.
 

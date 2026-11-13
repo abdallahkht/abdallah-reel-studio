@@ -25,3 +25,7 @@ Abdallah supplied and authorized the Find Skills Reel for this public showcase a
 ### 7 Ways + ROI — November 14, 2026
 
 Abdallah supplied and explicitly authorized his finished “Reel 3 - 7 Ways + ROI (keyword OS)” as the sixth public Reel example. The web copy preserves the complete 67.6-second edit and its limited-range BT.709 colors, compressed for download. The original file remains unchanged. The README preview is an eight-second lossless full-color animated WebP.
+
+### Reading coverage, sound defaults and Meta Ads — November 14, 2026
+
+Abdallah requested replacing the alternate Adobe gallery card with his supplied Meta Ads and Claude Reel. The complete web copy preserves the edit and BT.709 color, with download compression. Prior files remain preserved. Find Skills alternate v2 covers the entire 8.833–12.167-second reading section with new full-frame motion while retaining narration and timing. All gallery and modal players start muted. Only the main Adobe comparison starts with sound when the viewer presses play; its audio is the matching first 18 seconds from the supplied edited Adobe video. The README animated WebP remains silent by format.

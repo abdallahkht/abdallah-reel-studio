@@ -7,3 +7,5 @@ The new direction uses blue and white typography, animated skill files, a spring
 The public copy contains narration and sound effects, without the private background bed. Private font and sound-library source files are not included. Claims in the narration reflect the original recording, not independent current verification.
 
 Validation: visual frames, scene transitions, phone readability, runtime/layout checks, duration and audio levels. Audio was measured, not heard; a final listening review remains.
+
+November 14 revision: full-frame task/skill-file motion covers the script-reading camera section from 8.833 to 12.167 seconds. Narration, duration and other scenes remain intact. The revised example is find-skills-alternative-v2.mp4; the first render is preserved.
