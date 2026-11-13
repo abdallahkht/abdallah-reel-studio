@@ -1,12 +1,17 @@
 # أمثلة جاهزة للمشاهدة والتعديل
+<!-- Updated: 2026-11-13 -->
 
-هذه أمثلة موشن صامتة، مولّدة من القوالب الأصلية الموجودة في المشروع. النصوص والأرقام للتوضيح، وليست نتائج أو وعوداً.
+[افتح معرض الفيديوهات](https://abdallahkht.github.io/abdallah-reel-studio/). ستة أمثلة أصلية بدقة 1080×1920 و30 إطاراً في الثانية. الفيديوهات صامتة؛ أضف صوتك أثناء المونتاج. النصوص والأرقام للتوضيح.
 
-| عنوان | رقم مهم | شرح خطوات |
+| المثال | الفيديو | ملف التعديل |
 |---|---|---|
-| [![عنوان](title.png)](title.mp4) | [![رقم](metric.png)](metric.mp4) | [![خطوات](steps.png)](steps.mp4) |
-| [شاهد MP4](title.mp4) · [عدّل القالب](../motion/templates/title.json) | [شاهد MP4](metric.mp4) · [عدّل القالب](../motion/templates/metric.json) | [شاهد MP4](steps.mp4) · [عدّل القالب](../motion/templates/steps.json) |
+| عنوان | [شاهد MP4](title-demo.mp4) | [JSON](../motion/templates/title.json) |
+| كلمات متتابعة | [شاهد MP4](caption-demo.mp4) | [JSON](../motion/templates/caption.json) |
+| قبل وبعد | [شاهد MP4](compare-demo.mp4) | [JSON](../motion/templates/compare.json) |
+| رقم مهم | [شاهد MP4](metric-demo.mp4) | [JSON](../motion/templates/metric.json) |
+| اقتباس | [شاهد MP4](quote-demo.mp4) | [JSON](../motion/templates/quote.json) |
+| خطوات | [شاهد MP4](steps-demo.mp4) | [JSON](../motion/templates/steps.json) |
 
-اضغط الصورة لفتح ملف الفيديو، ثم Download أو View raw إذا لم يعرض GitHub المشغّل. بعد تنزيل المشروع تقدر تفتح MP4 مباشرة على جهازك.
+[شاهد المجموعة كاملة](motion-showcase.mp4) · [طريقة تعديل القوالب](../motion/README.md)
 
-أمثلة ريلز عبدالله الكاملة ستضاف لاحقاً بعد اختيار الملفات المخصصة للنشر. الإصدار الحالي لا يحتوي فيديوهات شخصية أو فيديوهات أعضاء.
+ملفات `title.mp4` و`metric.mp4` و`steps.mp4` محفوظة من الإصدار الأول. أمثلة ريلز عبدالله الكاملة ستضاف بعد اختيار الملفات المخصصة للنشر. الإصدار الحالي لا يحتوي فيديوهات شخصية أو فيديوهات أعضاء.

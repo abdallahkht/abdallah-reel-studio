@@ -1,15 +1,15 @@
 ---
 name: abdallah-reel-motion-kit
-description: Create Arabic titles, metric cards and step explainers for Reels using the original editable motion starter pack in Abdallah Reel Studio. Use for short animated scenes or graphics inside an edit.
+description: Create Arabic titles, word highlights, comparisons, quotes, metric cards and step explainers for Reels using the original editable motion starter pack in Abdallah Reel Studio. Use for short animated scenes or graphics inside an edit.
 ---
 
 # Arabic motion starter pack
 
 Locate the repository by resolving this skill's real path and going up two directories; on Windows read `app-location.txt`. Read `motion/README.md` for renderer commands and template fields.
 
-The supplied pack has three original starting points: `title`, `metric` and `steps`. These are editable full-screen scenes, not automatic face segmentation or a general VFX engine. For a different concept, build a new scene with the user's available tools. Never claim an effect exists in the pack if it does not.
+The supplied pack has six original starting points: `title`, `caption`, `compare`, `metric`, `quote` and `steps`. These are editable full-screen scenes, not automatic face segmentation or a general VFX engine. For a different concept, build a new scene with the user's available tools. Never claim an effect exists in the pack if it does not.
 
-Use Arabic as written by the user, with proper RTL shaping. Keep the narration's language; don't insert English labels by default. Use a font installed on the member's own computer or one they have permission to use. Do not copy commercial font files into the project for distribution.
+Use Arabic as written by the user, with proper RTL shaping. Keep the narration's language; don't insert English labels by default. Use the bundled OFL-licensed IBM Plex Sans Arabic, or a font installed on the member's own computer that they have permission to use. Do not copy commercial font files into the project for distribution.
 
 Motion decisions:
 - Tie each visual change to the word or idea it explains. Choose one dominant idea per scene.

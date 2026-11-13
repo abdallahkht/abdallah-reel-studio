@@ -478,7 +478,7 @@ class Handler(BaseHTTPRequestHandler):
                     p = read(f)
                     projects.append({k: p[k] for k in ['id', 'name', 'revision', 'updated']})
                 return self.json({'app': 'reel-studio', 'token': TOKEN, 'projects': sorted(projects, key=lambda p:p['updated'], reverse=True),
-                                  'ffmpeg': bool(shutil.which('ffmpeg')), 'version': '0.1.1'})
+                                  'ffmpeg': bool(shutil.which('ffmpeg')), 'version': '0.2.0'})
             if path == '/api/export-preferences':
                 return self.json(preferences())
             if len(bits) == 3 and bits[:2] == ['api', 'projects']:

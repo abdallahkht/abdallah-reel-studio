@@ -1,0 +1,17 @@
+{
+  "template": "compare",
+  "title": "الفرق واضح",
+  "labels": [
+    "قبل",
+    "بعد"
+  ],
+  "items": [
+    "فكرة مشتتة",
+    "رسالة توصل"
+  ],
+  "eyebrow": "مقارنة بفكرة واحدة",
+  "accent": "#9DD3DF",
+  "background": "#0A1A27",
+  "duration": 4,
+  "footer": ""
+}

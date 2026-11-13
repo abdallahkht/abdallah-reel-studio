@@ -23,7 +23,7 @@ def find_font(value):
         path=Path(value).expanduser()
         if not path.is_file():raise ValueError('Font file does not exist.')
         return str(path)
-    candidates=[Path('/System/Library/Fonts/Supplemental/Arial.ttf'),Path('C:/Windows/Fonts/arial.ttf'),Path('/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf')]
+    candidates=[Path(__file__).resolve().parents[1]/'assets/fonts/IBMPlexSansArabic-Bold.ttf',Path('/System/Library/Fonts/Supplemental/Arial.ttf'),Path('C:/Windows/Fonts/arial.ttf'),Path('/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf')]
     for path in candidates:
         if path.is_file():return str(path)
     raise ValueError('Pass --font with the path to an Arabic-capable TTF font.')
@@ -75,6 +75,31 @@ def frame(config,t,path):
         label(d,config.get('value','3'),(540,850+60*(1-reveal)),path,310,accent)
         label(d,config.get('subtitle',''),(540,1160),path,50,'#BDC6E2')
         d.rounded_rectangle((150,1260,150+780*max(.001,ease((t-.6)/.8)),1270),radius=5,fill=accent)
+    elif kind=='caption':
+        words=config.get('words',['كل','كلمة','بوقتها'])
+        active=min(len(words)-1,max(0,int((t-.25)/.65)))
+        for i,word in enumerate(words):
+            y=640+i*230
+            if i==active:
+                e=ease((t-.25-i*.65)/.35)
+                d.rounded_rectangle((120,y-90,120+840*max(.001,e),y+100),radius=16,fill=accent)
+            label(d,word,(540,y),path,146,bg if i==active else '#EBF0F5',width=820)
+    elif kind=='compare':
+        label(d,config['title'],(540,470),path,90)
+        e=ease((t-.2)/.7)
+        for i,(head,body) in enumerate(zip(config['labels'],config['items'])):
+            y=650+i*375;offset=int((1-e)*(140 if i==0 else -140))
+            d.rounded_rectangle((88+offset,y,992+offset,y+290),radius=22,fill='#172D3D' if i==0 else accent)
+            label(d,head,(915+offset,y+66),path,38,'#89A5BC' if i==0 else '#153343',anchor='rm')
+            label(d,body,(540+offset,y+180),path,68,'#F1F6FA' if i==0 else '#102839',width=790)
+        d.line((540,960,540,1000),fill=accent,width=4)
+    elif kind=='quote':
+        e=ease((t-.2)/.8)
+        d.rectangle((920,510,932,510+760*max(.001,e)),fill=accent)
+        for i,line in enumerate(config['lines']):
+            if t < .25+i*.3:continue
+            label(d,line,(865,650+i*155),path,84,width=740,anchor='rm')
+        if t>1.3:label(d,config.get('subtitle',''),(865,1260),path,38,'#A8BED1',width=740,anchor='rm')
     elif kind=='steps':
         label(d,config['title'],(540,460),path,88)
         for index,step in enumerate(config['steps']):
@@ -100,10 +125,13 @@ def main():
     parser.add_argument('--fps',type=int,choices=[24,25,30,50,60],default=30)
     args=parser.parse_args()
     config=json.loads(args.template.read_text(encoding='utf-8'))
-    if config.get('template') not in ['title','metric','steps']:raise ValueError('Unknown template.')
+    if config.get('template') not in ['title','metric','steps','caption','compare','quote']:raise ValueError('Unknown template.')
     config['duration']=float(config.get('duration',4))
     if not 1<=config['duration']<=60:raise ValueError('Use a duration between 1 and 60 seconds.')
     if config['template']=='steps' and not 1<=len(config.get('steps',[]))<=3:raise ValueError('Use one to three short steps.')
+    for kind,field in [('caption','words'),('quote','lines')]:
+        if config['template']==kind and (not isinstance(config.get(field),list) or not 1<=len(config[field])<=3):raise ValueError(f'Use one to three entries in {field}.')
+    if config['template']=='compare' and any(not isinstance(config.get(field),list) or len(config[field])!=2 for field in ['labels','items']):raise ValueError('Compare needs two labels and two items.')
     if not shutil.which('ffmpeg'):raise ValueError('Install FFmpeg first.')
     path=find_font(args.font);output=args.output.expanduser().resolve();poster=output.with_suffix('.png')
     if output.exists() or poster.exists():raise ValueError('Output exists. Choose a new name.')
