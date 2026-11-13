@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Abdallah Reel Studio</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <header>
+      <button id="open" class="subtle">Open video</button
+      ><input id="file" type="file" accept="video/*,.mkv" hidden />
+      <select id="projects" aria-label="Current video"></select
+      ><span id="saved" role="status">Saved</span>
+      <div class="spacer"></div>
+      <button id="notes-toggle" class="subtle">
+        Notes <span id="note-count"></span>
+      </button>
+      <button
+        id="history-toggle"
+        class="icon"
+        aria-label="Version history"
+        title="Version history"
+      >
+        ↶
+      </button>
+      <button id="export" class="primary">Export</button>
+    </header>
+    <main>
+      <section class="viewer">
+        <div id="empty" hidden>
+          <p>Give Claude your footage.<br />Review the finished edit here.</p>
+          <button id="empty-open">Open video</button>
+        </div>
+        <div id="screen">
+          <video id="video" playsinline preload="auto"></video
+          ><canvas id="overlay" width="1080" height="1920"></canvas>
+        </div>
+        <span class="ratio">9:16</span>
+      </section>
+      <aside id="notes-panel" hidden>
+        <div class="panel-head">
+          <span>Notes for Claude</span
+          ><button id="close-notes" class="icon" aria-label="Close notes">
+            ×
+          </button>
+        </div>
+        <form id="note-form">
+          <label id="note-at">At 00:00</label
+          ><textarea
+            id="note-text"
+            placeholder="What needs fixing?"
+            rows="3"
+            dir="auto"
+            required
+          ></textarea
+          ><button class="primary">Add note</button>
+        </form>
+        <div id="notes-list"></div>
+        <button id="copy-notes" class="subtle">Copy notes for Claude</button>
+      </aside>
+    </main>
+    <section class="bottom">
+      <div class="playback">
+        <div class="time">
+          <input id="time" value="00:00.000" aria-label="Playhead time" /><span
+            id="duration"
+            >/ 00:00</span
+          >
+        </div>
+        <div class="play-controls">
+          <button
+            id="back"
+            class="icon"
+            title="Previous frame (←)"
+            aria-label="Previous frame"
+          >
+            ▏◀</button
+          ><button id="play" class="icon play" aria-label="Play or pause">
+            ▶</button
+          ><button
+            id="forward"
+            class="icon"
+            title="Next frame (→)"
+            aria-label="Next frame"
+          >
+            ▶▕
+          </button>
+        </div>
+        <span id="frame">Frame 0</span>
+      </div>
+      <div class="tools">
+        <button id="undo" class="icon" title="Undo (⌘Z)" aria-label="Undo">
+          ↶</button
+        ><button id="redo" class="icon" title="Redo (⇧⌘Z)" aria-label="Redo">
+          ↷</button
+        ><span class="separator"></span
+        ><button id="split" title="Split at playhead (S)">
+          <svg viewBox="0 0 24 24">
+            <path d="M12 3v18M4 8h4v8H4M20 8h-4v8h4" /></svg
+          >Split</button
+        ><button id="remove" title="Remove selected section (Delete)">
+          <svg viewBox="0 0 24 24">
+            <path d="M4 7h16M9 7V4h6v3M7 7l1 13h8l1-13M10 10v7M14 10v7" /></svg
+          >Remove</button
+        ><button id="restore-toggle">
+          <svg viewBox="0 0 24 24"><path d="M5 9a8 8 0 1 1 0 7M5 3v6h6" /></svg
+          >Restore footage</button
+        ><button id="add-note">
+          <svg viewBox="0 0 24 24">
+            <path d="M4 4h16v13H9l-5 4zM8 8h8M8 12h5" /></svg
+          >Note
+        </button>
+        <div class="spacer"></div>
+        <span id="selection-label"></span
+        ><label class="zoom"
+          >−<input
+            id="zoom"
+            type="range"
+            min="1"
+            max="8"
+            step=".25"
+            value="1"
+            aria-label="Timeline zoom"
+          />＋</label
+        >
+      </div>
+      <div id="timeline-scroll">
+        <div id="timeline">
+          <div id="ruler"></div>
+          <div id="markers"></div>
+          <div id="clips"></div>
+          <canvas id="waveform" height="40"></canvas>
+          <div id="playhead"><span></span></div>
+        </div>
+      </div>
+      <div id="restore-panel" hidden>
+        <div class="restore-heading">
+          <span>Original footage</span
+          ><span class="help">Select a removed moment</span>
+          <div class="spacer"></div>
+          <button
+            id="close-restore"
+            class="icon"
+            aria-label="Close original footage"
+          >
+            ×
+          </button>
+        </div>
+        <div id="source-strip"></div>
+        <div class="restore-controls">
+          <label
+            >From
+            <input id="restore-in" type="number" step=".001" min="0" /></label
+          ><label
+            >To
+            <input id="restore-out" type="number" step=".001" min="0" /></label
+          ><button id="preview-restore">Preview</button
+          ><button id="restore" class="primary">Restore selection</button
+          ><span class="help">seconds</span>
+        </div>
+      </div>
+    </section>
+    <dialog id="export-dialog">
+      <div class="panel-head">
+        <h2>Export</h2>
+        <button
+          data-close="export-dialog"
+          class="icon"
+          aria-label="Close export"
+        >
+          ×
+        </button>
+      </div>
+      <form id="export-form">
+        <label class="export-file">File name<input id="export-name" required placeholder="My video.mp4"></label>
+        <div class="export-folder"><label for="export-folder">Save to folder</label><div><input id="export-folder" readonly placeholder="No folder selected" aria-label="Export folder"><button type="button" id="choose-folder">Choose folder</button></div></div>
+        <label
+          >Resolution<select id="resolution">
+            <option value="1280">720p</option>
+            <option value="1920" selected>1080p</option>
+            <option value="2560">2K</option>
+            <option value="3840">4K</option>
+          </select></label
+        ><label
+          >Frame rate<select id="fps">
+            <option>24</option>
+            <option>25</option>
+            <option selected>30</option>
+            <option>50</option>
+            <option>60</option>
+          </select></label
+        ><label
+          >Quality<select id="quality">
+            <option value="high">High quality</option>
+            <option value="standard">Standard</option>
+            <option value="draft">Smaller file</option>
+          </select></label
+        >
+        <p class="help" id="export-info"></p>
+        <button class="primary wide" id="export-go">Export MP4</button>
+      </form>
+    </dialog>
+    <dialog id="history-dialog">
+      <div class="panel-head">
+        <h2>Previous versions</h2>
+        <button
+          data-close="history-dialog"
+          class="icon"
+          aria-label="Close history"
+        >
+          ×
+        </button>
+      </div>
+      <div id="history-list"></div>
+    </dialog>
+    <div id="status" role="status" hidden></div>
+    <script type="module" src="/app.js"></script>
+  </body>
+</html>

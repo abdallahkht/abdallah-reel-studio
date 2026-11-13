@@ -1,0 +1,14 @@
+{
+  "template": "steps",
+  "title": "من الفكرة للنشر",
+  "steps": [
+    "أعطِ الفيديو للذكاء الاصطناعي",
+    "راجع التفاصيل في المحرر",
+    "صدّر الفيديو وشاركه"
+  ],
+  "eyebrow": "الطريقة ببساطة",
+  "accent": "#FFBA86",
+  "background": "#191410",
+  "duration": 5,
+  "footer": "ABDALLAH / REEL STUDIO"
+}
