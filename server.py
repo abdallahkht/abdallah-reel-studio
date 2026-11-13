@@ -478,7 +478,7 @@ class Handler(BaseHTTPRequestHandler):
                     p = read(f)
                     projects.append({k: p[k] for k in ['id', 'name', 'revision', 'updated']})
                 return self.json({'app': 'reel-studio', 'token': TOKEN, 'projects': sorted(projects, key=lambda p:p['updated'], reverse=True),
-                                  'ffmpeg': bool(shutil.which('ffmpeg')), 'version': '0.2.0'})
+                                  'ffmpeg': bool(shutil.which('ffmpeg')), 'version': '0.3.0'})
             if path == '/api/export-preferences':
                 return self.json(preferences())
             if len(bits) == 3 and bits[:2] == ['api', 'projects']:
@@ -580,6 +580,8 @@ class Handler(BaseHTTPRequestHandler):
             bits = urlparse(self.path).path.strip('/').split('/')
             if bits == ['api','choose-export-folder']:
                 return self.json(choose_export_folder())
+            if bits == ['api', 'example']:
+                return self.json(import_project({'path': str(ROOT/'examples'/'adobe'/'after.mp4'), 'name': 'Adobe — Claude edit'}))
             if bits == ['api', 'import']:
                 return self.json(import_project(body))
             if len(bits) == 4 and bits[:2] == ['api', 'projects']:

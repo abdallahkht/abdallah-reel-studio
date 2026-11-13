@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://abdallahkht.github.io/abdallah-reel-studio/"><img src="assets/studio-cover.jpg" width="100%" alt="عبدالله Reel Studio — من فكرتك إلى ريل جاهز. مهارات للمونتاج مع Claude وCodex، وواجهة لمراجعة الفيديو."></a>
+  <a href="https://abdallahkht.github.io/abdallah-reel-studio/"><img src="assets/adobe-comparison.gif" width="100%" alt="عبدالله Reel Studio — من فكرتك إلى ريل جاهز. مهارات للمونتاج مع Claude وCodex، وواجهة لمراجعة الفيديو."></a>
 </p>
 <p align="center" dir="rtl">
   <b>مساعدك يعمل المونتاج. وأنت تراجع اللمسات الأخيرة.</b><br>
@@ -16,7 +16,7 @@
   <a href="#workflow">طريقة العمل</a> &nbsp;·&nbsp;
   <a href="#review">المحرر</a> &nbsp;·&nbsp;
   <a href="#start">ابدأ هنا</a> &nbsp;·&nbsp;
-  <a href="https://github.com/abdallahkht/abdallah-reel-studio/releases/latest/download/abdallah-reel-studio-v0.2.0.zip"><b>تحميل ZIP</b></a>
+  <a href="https://github.com/abdallahkht/abdallah-reel-studio/releases/latest/download/abdallah-reel-studio-v0.3.0.zip"><b>تحميل ZIP</b></a>
 </p>
 
 <div dir="rtl">
@@ -33,28 +33,21 @@
 
 <a id="examples"></a>
 
-## شاهد الحركة
+## نفس الفيديو، بطريقتين
 
-كل مثال تحته ملفه القابل للتعديل. اضغط المعاينة لمشاهدته كفيديو في المعرض.
+فيديوهات حقيقية من مونتاج عبدالله. شاهد الخام، ثم قارن بين النسخة الأولى والنسخة الجديدة بموشن أبيض وأزرق.
 
 </div>
 
-<table>
-<tr>
-<td width="33%" align="center"><a href="https://abdallahkht.github.io/abdallah-reel-studio/?demo=title"><img src="assets/previews/title.gif" width="100%" alt="عنوان عربي متحرك"></a><br><b>عنوان يثبت الفكرة</b><br><a href="motion/templates/title.json">ملف القالب</a> · <a href="examples/title-demo.mp4">MP4</a></td>
-<td width="33%" align="center"><a href="https://abdallahkht.github.io/abdallah-reel-studio/?demo=caption"><img src="assets/previews/caption.gif" width="100%" alt="كلمات يتم تأكيدها بالتتابع"></a><br><b>كل كلمة بوقتها</b><br><a href="motion/templates/caption.json">ملف القالب</a> · <a href="examples/caption-demo.mp4">MP4</a></td>
-<td width="33%" align="center"><a href="https://abdallahkht.github.io/abdallah-reel-studio/?demo=compare"><img src="assets/previews/compare.gif" width="100%" alt="بطاقتا قبل وبعد"></a><br><b>قبل وبعد</b><br><a href="motion/templates/compare.json">ملف القالب</a> · <a href="examples/compare-demo.mp4">MP4</a></td>
-</tr>
-<tr>
-<td align="center"><a href="https://abdallahkht.github.io/abdallah-reel-studio/?demo=metric"><img src="assets/previews/metric.gif" width="100%" alt="بطاقة رقم متحركة"></a><br><b>رقم يستحق الانتباه</b><br><a href="motion/templates/metric.json">ملف القالب</a> · <a href="examples/metric-demo.mp4">MP4</a></td>
-<td align="center"><a href="https://abdallahkht.github.io/abdallah-reel-studio/?demo=quote"><img src="assets/previews/quote.gif" width="100%" alt="ثلاث جمل تظهر بإيقاع محسوب"></a><br><b>مساحة للفكرة</b><br><a href="motion/templates/quote.json">ملف القالب</a> · <a href="examples/quote-demo.mp4">MP4</a></td>
-<td align="center"><a href="https://abdallahkht.github.io/abdallah-reel-studio/?demo=steps"><img src="assets/previews/steps.gif" width="100%" alt="شرح ثلاث خطوات بالتتابع"></a><br><b>خطوة بخطوة</b><br><a href="motion/templates/steps.json">ملف القالب</a> · <a href="examples/steps-demo.mp4">MP4</a></td>
-</tr>
-</table>
+<table><tr>
+<td width="33%" align="center"><a href="https://abdallahkht.github.io/abdallah-reel-studio/?demo=adobe"><img src="assets/previews/adobe.gif" width="100%" alt="ريل Adobe — النسخة الأولى"></a><br><b>Adobe · النسخة الأولى</b><br><a href="examples/adobe/before.mp4">قبل المونتاج</a> · <a href="examples/adobe/after.mp4">بعد المونتاج</a></td>
+<td width="33%" align="center"><a href="https://abdallahkht.github.io/abdallah-reel-studio/?demo=alternative"><img src="assets/previews/adobe-alternative.gif" width="100%" alt="نفس الخام بموشن أبيض وأزرق"></a><br><b>Adobe · ستايل مختلف</b><br><a href="examples/adobe/alternative.mp4">شاهد الفيديو</a> · <a href="examples/adobe/edit-notes.md">كيف اتعمل؟</a></td>
+<td width="33%" align="center"><a href="https://abdallahkht.github.io/abdallah-reel-studio/?demo=dots"><img src="assets/previews/dots.gif" width="100%" alt="ريل Dots وMuse وGrok"></a><br><b>Dots · Muse · Grok</b><br><a href="examples/dots-muse-grok.mp4">شاهد الفيديو الكامل</a></td>
+</tr></table>
 
 <div dir="rtl">
 
-هذه أمثلة موشن أصلية صامتة، وليست مونتاجاً لفيديوهات شخصية. قالب الكلمات يوضّح الحركة؛ ليس نظام تفريغ كلام تلقائياً. الأرقام للتوضيح. [طريقة تعديل القوالب](motion/README.md).
+النسخة الأولى وريل Dots من أعمال عبدالله السابقة. النسخة البديلة أُعدّت بمهاراته الشخصية الحالية؛ المهارات المرفقة نقطة بداية لتطوير أسلوبك. [أمثلة الموشن القابلة للتعديل](motion/README.md) متوفرة أيضاً.
 
 <a id="workflow"></a>
 
@@ -72,7 +65,7 @@
 
 ## مساحة للمراجعة، بدون تعقيد
 
-[![لقطة فعلية عالية الدقة للمحرر](assets/editor-desktop.jpg)](assets/editor-desktop.jpg)
+[![لقطة فعلية عالية الدقة للمحرر](assets/editor-adobe.png)](assets/editor-adobe.png)
 
 | ما تفعله | كيف؟ |
 |---|---|
@@ -83,15 +76,13 @@
 | الرجوع لتعديل سابق | Undo وسجل نسخ محفوظ |
 | إخراج الفيديو | 720p، 1080p، 2K أو 4K، ثم اختر مجلد الحفظ |
 
-[![تنقّل فعلي بين إطارات المثال داخل المحرر](assets/previews/review.gif)](https://abdallahkht.github.io/abdallah-reel-studio/#review)
-
-اللقطات أعلاه من المحرر الحقيقي مع مثال الموشن الموجود في المشروع. الجزء المسترجع يأتي من الخام؛ تمديد الموشن أو الصوت عليه يتم مع المساعد في المشروع الأصلي.
+جرّب **Try Adobe example** عند فتح المحرر لأول مرة. يفتح الريل الحقيقي المرفق لتجربة الملاحظات والقص والتصدير. المثال فيديو نهائي؛ استرجاع كلام محذوف من المونتاج الأصلي يحتاج خريطة قص متصلة بالمصدر، وهي غير مرفقة لهذا المثال.
 
 <a id="start"></a>
 
 ## ابدأ هنا
 
-**[نزّل ZIP](https://github.com/abdallahkht/abdallah-reel-studio/releases/latest/download/abdallah-reel-studio-v0.2.0.zip)**، فك الضغط، وافتح المجلد في Claude Code أو Codex. ثم أرسل:
+**[نزّل ZIP](https://github.com/abdallahkht/abdallah-reel-studio/releases/latest/download/abdallah-reel-studio-v0.3.0.zip)**، فك الضغط، وافتح المجلد في Claude Code أو Codex. ثم أرسل:
 
 > جهّز هذا المشروع وثبّت المهارات الموجودة فيه بدون استبدال مهاراتي الحالية. افحص Python وFFmpeg ثم افتح المحرر.
 

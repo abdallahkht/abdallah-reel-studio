@@ -780,6 +780,16 @@ $("#projects").onchange = async (e) => {
   }
 };
 $("#open").onclick = $("#empty-open").onclick = () => $("#file").click();
+$("#empty-example").onclick = async () => {
+  const button = $("#empty-example");
+  button.disabled = true;
+  try {
+    toast("Opening Adobe example…", true);
+    const result = await api("/api/example", {});
+    await openProject(result.project.id);
+  } catch (e) { error(e); }
+  finally { button.disabled = false; }
+};
 $("#file").onchange = async (e) => {
   const file = e.target.files[0];
   if (!file) return;
