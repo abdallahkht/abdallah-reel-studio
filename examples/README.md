@@ -1,5 +1,5 @@
 # ريلز عبدالله وأمثلة الموشن
-<!-- Updated: 2026-11-13 -->
+<!-- Updated: 2026-11-14 -->
 
 [افتح معرض الفيديوهات](https://abdallahkht.github.io/abdallah-reel-studio/#examples).
 
@@ -11,6 +11,7 @@
 | Adobe — المونتاج الأول | [MP4](adobe/after.mp4) |
 | Adobe — النسخة البديلة | [MP4](adobe/alternative.mp4) · [ملاحظات المونتاج](adobe/edit-notes.md) |
 | Dots / Muse / Grok | [MP4](dots-muse-grok.mp4) |
+| 7 Ways + ROI — OS | [MP4](seven-ways-roi.mp4) |
 | Find Skills — النسخة الأولى | [MP4](find-skills.mp4) |
 | Find Skills — ستايل جديد | [MP4](find-skills-alternative.mp4) · [ملاحظات المونتاج](find-skills-edit-notes.md) |
 
@@ -36,3 +37,5 @@
 ملفات `title.mp4` و`metric.mp4` و`steps.mp4` محفوظة من الإصدار الأول. أمثلة الريلز أعلاه أضيفت في الإصدار 0.3.0 بموافقة عبدالله.
 
 أضيف مثالا Find Skills في الإصدار 0.4.0، مع معاينات متحركة كاملة الألوان.
+
+أضيف ريل 7 Ways + ROI في الإصدار 0.4.1 ليصبح المعرض ستة أمثلة ريلز. نسخة مضغوطة للعرض، بنفس المونتاج والألوان.

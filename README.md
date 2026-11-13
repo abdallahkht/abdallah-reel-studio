@@ -16,7 +16,7 @@
   <a href="#workflow">طريقة العمل</a> &nbsp;·&nbsp;
   <a href="#review">المحرر</a> &nbsp;·&nbsp;
   <a href="#start">ابدأ هنا</a> &nbsp;·&nbsp;
-  <a href="https://github.com/abdallahkht/abdallah-reel-studio/releases/latest/download/abdallah-reel-studio-v0.4.0.zip"><b>تحميل ZIP</b></a>
+  <a href="https://github.com/abdallahkht/abdallah-reel-studio/releases/latest/download/abdallah-reel-studio-v0.4.1.zip"><b>تحميل ZIP</b></a>
 </p>
 
 <div dir="rtl">
@@ -46,7 +46,7 @@
 </tr><tr>
 <td width="33%" align="center"><a href="https://abdallahkht.github.io/abdallah-reel-studio/?demo=find-skills"><img src="assets/previews/find-skills-color.webp" width="100%" alt="Find Skills — النسخة الأولى"></a><br><b>Find Skills · النسخة الأولى</b></td>
 <td width="33%" align="center"><a href="https://abdallahkht.github.io/abdallah-reel-studio/?demo=find-skills-alternative"><img src="assets/previews/find-skills-alternative-color.webp" width="100%" alt="Find Skills — موشن جديد من تصوير الكاميرا"></a><br><b>Find Skills · ستايل جديد</b></td>
-<td width="33%"></td>
+<td width="33%" align="center"><a href="https://abdallahkht.github.io/abdallah-reel-studio/?demo=seven-ways-roi"><img src="assets/previews/seven-ways-roi-color.webp" width="100%" alt="ريل 7 Ways وROI — OS"></a><br><b>7 Ways + ROI · OS</b></td>
 </tr></table>
 
 <div dir="rtl">
@@ -86,7 +86,7 @@
 
 ## ابدأ هنا
 
-**[نزّل ZIP](https://github.com/abdallahkht/abdallah-reel-studio/releases/latest/download/abdallah-reel-studio-v0.4.0.zip)**، فك الضغط، وافتح المجلد في Claude Code أو Codex. ثم أرسل:
+**[نزّل ZIP](https://github.com/abdallahkht/abdallah-reel-studio/releases/latest/download/abdallah-reel-studio-v0.4.1.zip)**، فك الضغط، وافتح المجلد في Claude Code أو Codex. ثم أرسل:
 
 > جهّز هذا المشروع وثبّت المهارات الموجودة فيه بدون استبدال مهاراتي الحالية. افحص Python وFFmpeg ثم افتح المحرر.
 

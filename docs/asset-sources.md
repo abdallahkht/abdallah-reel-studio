@@ -21,3 +21,7 @@ The first GIF previews used a 128-color palette and visibly posterized skin tone
 ### Find Skills examples — November 13, 2026
 
 Abdallah supplied and authorized the Find Skills Reel for this public showcase and requested a different edit using only his camera footage. The first version is a web-compressed copy of his supplied export. The alternative uses his clean camera track and newly authored HyperFrames/GSAP motion, including an adapted spring-stack-shuffle component from the installed HyperFrames registry. No B-roll from the original edit was reused. Real Claude/OpenAI brand geometry comes from his existing logo library. Private fonts and standalone audio assets remain local; the public alternate omits the background bed. Both previews use lossless animated WebP.
+
+### 7 Ways + ROI — November 14, 2026
+
+Abdallah supplied and explicitly authorized his finished “Reel 3 - 7 Ways + ROI (keyword OS)” as the sixth public Reel example. The web copy preserves the complete 67.6-second edit and its limited-range BT.709 colors, compressed for download. The original file remains unchanged. The README preview is an eight-second lossless full-color animated WebP.
