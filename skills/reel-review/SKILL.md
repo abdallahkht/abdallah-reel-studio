@@ -1,5 +1,5 @@
 ---
-name: abdallah-reel-review
+name: reel-review
 description: Open a completed AI-edited portrait video in Abdallah Reel Studio with original-footage recovery, and read timestamped notes for revisions. Use after the creative edit is finished or when handling review corrections.
 ---
 
@@ -7,7 +7,7 @@ description: Open a completed AI-edited portrait video in Abdallah Reel Studio w
 
 Find the kit by resolving this skill's real path and going up two directories. On Windows use `app-location.txt`. Read `references/delivery.md` when preparing a recovery map or resolving an import mismatch.
 
-Use the member's existing editing skill, or the included `abdallah-reel-edit` starter, to complete the creative edit first. Preserve that skill's pacing, language and style. The review editor is for frame stepping, tiny trims/restoration, notes and export; it does not perform AI editing by itself.
+Use the member's existing editing skill, or the included `reel-edit` starter, to complete the creative edit first. Preserve that skill's pacing, language and style. The review editor is for frame stepping, tiny trims/restoration, notes and export; it does not perform AI editing by itself.
 
 1. Keep the finished MP4, editable source project and original footage. The MP4 must include all intended graphics, captions, inserts and sound.
 2. Supply `raw/raw.json`, `raw/edl.json` and optionally `raw/chunks.json`, matching the exact final timeline. Current recovery supports one uncut portrait source at normal speed. Don't invent a recovery map for unsupported retiming or multiple narration sources.

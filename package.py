@@ -5,7 +5,7 @@ import subprocess
 import zipfile
 
 ROOT=Path(__file__).resolve().parent
-VERSION='0.4.3'
+VERSION='0.4.4'
 
 def main():
     names=subprocess.check_output(['git','ls-files','-z'],cwd=ROOT).decode().split('\0')

@@ -18,7 +18,7 @@ my-reel/
     my-reel.mp4    # الفيديو الكامل
 ```
 
-المساعد ينشئ الملفات؛ لا تحتاج تعبئتها يدوياً. التفاصيل التقنية في [عقد التسليم](../skills/abdallah-reel-review/references/delivery.md).
+المساعد ينشئ الملفات؛ لا تحتاج تعبئتها يدوياً. التفاصيل التقنية في [عقد التسليم](../skills/reel-review/references/delivery.md).
 
 ## عند وجود تعديل
 

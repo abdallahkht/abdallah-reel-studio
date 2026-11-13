@@ -29,3 +29,7 @@ The bundled Adobe example opened from the new empty-state button in a fresh isol
 Twenty editor tests, setup checks and JavaScript syntax checks passed. The gallery played the new alternative at 1080×1920 with a 35-second duration. The main before/after preview is muted and has a pause control; autoplay is disabled for reduced-motion preferences. Full-length examples include their audio.
 
 The new alternative keeps all 1,050 source frames and the original speech sequence. Frame/render checks found no altered pixels in the protected speaker region and no pink graphic pixels. Audio was measured at approximately −14 LUFS with a −1 dBTP ceiling. Automated audio/transcription checks are not a headphone or phone-speaker listening review.
+
+## v0.4.4 — generic community skill names
+
+Renamed the three community skills to reel-edit, reel-motion-kit and reel-review, updated cross-references and ZIP links. Private personal skills and video assets were not changed. The gallery still uses its existing v0.4.3 media/script implementation with permanently silent examples.

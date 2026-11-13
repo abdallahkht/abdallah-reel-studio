@@ -1,5 +1,5 @@
 ---
-name: abdallah-reel-motion-kit
+name: reel-motion-kit
 description: Create Arabic titles, word highlights, comparisons, quotes, metric cards and step explainers for Reels using the original editable motion starter pack in Abdallah Reel Studio. Use for short animated scenes or graphics inside an edit.
 ---
 
