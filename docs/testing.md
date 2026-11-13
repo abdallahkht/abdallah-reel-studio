@@ -1,6 +1,6 @@
 # Release checks and current limits
 
-Version 0.1.0 — first community release, November 13, 2026.
+Version 0.1.1 — account links updated to abdallahkht, November 13, 2026. The editing behavior is unchanged from the initial 0.1.0 release.
 
 The editor core was exercised locally on macOS: complete-render preview, frame stepping, cuts, Undo, raw-footage restoration, notes, saved history and corrected MP4 output. The community distribution starts with an empty workspace and includes no personal projects or footage.
 

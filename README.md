@@ -8,7 +8,7 @@
 
 ![Abdallah Reel Studio](assets/cover.png)
 
-**[تحميل النسخة الجاهزة ZIP](https://github.com/Abood77777/abdallah-reel-studio/releases/latest/download/abdallah-reel-studio-v0.1.0.zip)** · **[ابدأ من هنا](docs/setup-ar.md)** · **[شاهد الأمثلة](examples/README.md)**
+**[تحميل النسخة الجاهزة ZIP](https://github.com/abdallahkht/abdallah-reel-studio/releases/latest/download/abdallah-reel-studio-v0.1.1.zip)** · **[ابدأ من هنا](docs/setup-ar.md)** · **[شاهد الأمثلة](examples/README.md)**
 
 ## كيف تبدأ؟
 
@@ -41,6 +41,6 @@
 
 جرّبنا المحرر على Mac. تشغيل Windows وLinux متاح لكنه يحتاج تجربة إضافية. [ما تم اختباره والحدود الحالية](docs/testing.md).
 
-المشروع من **عبدالله خريسات** لمجتمعه، ومتاح للجميع. تقدر تستخدمه وتعدّله وفق [MIT](LICENSE). [أرسل مشكلة أو اقتراحاً](https://github.com/Abood77777/abdallah-reel-studio/issues).
+المشروع من **عبدالله خريسات** لمجتمعه، ومتاح للجميع. تقدر تستخدمه وتعدّله وفق [MIT](LICENSE). [أرسل مشكلة أو اقتراحاً](https://github.com/abdallahkht/abdallah-reel-studio/issues).
 
 </div>
