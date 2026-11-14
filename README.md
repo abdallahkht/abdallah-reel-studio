@@ -1,9 +1,9 @@
 <p align="center">
-  <a href="https://abdallahkht.github.io/abdallah-reel-studio/?v=0.4.4"><img src="assets/adobe-comparison-color.webp" width="100%" alt="عبدالله Reel Studio — من فكرتك إلى ريل جاهز. مهارات للمونتاج مع Claude وCodex، وواجهة لمراجعة الفيديو."></a>
+  <a href="https://abdallahkht.github.io/abdallah-reel-studio/?v=0.4.4"><img src="assets/adobe-comparison-en.webp" width="100%" alt="The Adobe reel before and after editing with Claude, shown side by side."></a>
 </p>
-<p align="center" dir="rtl">
-  <b>مساعدك يعمل المونتاج. وأنت تراجع اللمسات الأخيرة.</b><br>
-  أعطِ Claude أو Codex الفيديو والتعليمات، ثم افتح النتيجة في محرر بسيط على جهازك.
+<p align="center" lang="en" dir="ltr">
+  <b>Let Claude or Codex edit your reel. Make the final cuts yourself.</b><br>
+  Give your assistant the footage and a brief, then open the finished edit on your computer.
 </p>
 <p align="center">
   <img src="https://img.shields.io/badge/Claude_Code_%2B_Codex-skills-19354a?style=flat-square" alt="Skills for Claude Code and Codex">
@@ -126,24 +126,30 @@ flowchart LR
 | [`docs/`](docs/) | التجهيز، طريقة العمل، الاختبارات ومصادر الأصول |
 | [`assets/`](assets/) | الغلاف، لقطات المحرر، المعاينات المتحركة والخط المرخّص |
 
-## ما الذي تم اختباره؟
-
-| الجزء | الحالة |
-|---|---|
-| المحرر على Mac | جُرّبت المعاينة والقص والاسترجاع والملاحظات والتصدير. نافذة اختيار المجلد نفسها ما زالت تحتاج تحققاً عملياً. |
-| أمثلة الموشن | ستة أمثلة مُخرجة، مع فحص العربية والأبعاد والإطارات. |
-| المهارات | ملفات تعليمات جاهزة. تجربة عضو جديد كاملة من الخام إلى التسليم ما زالت مطلوبة. |
-| Windows وLinux | مسارات تشغيل متوفرة؛ غير مختبرة بالكامل. |
-| تنسيقات أخرى | الإصدار الحالي 9:16. اليوتيوب الأفقي مؤجّل. |
-
-[تفاصيل الاختبارات والحدود](docs/testing.md). التكبير إلى 2K أو 4K لا يضيف تفاصيل غير موجودة بالأصل. واجهة المحرر حالياً بالإنجليزية، والمحتوى هنا موجّه للعربية.
-
-## الترخيص
-
-من **عبدالله خريسات** لمجتمعه، ومتاح للجميع وفق [MIT](LICENSE). خط IBM Plex Sans Arabic يأتي مع [ترخيصه](assets/fonts/OFL.txt). Claude وشعاره ملك Anthropic، وهذا مشروع مستقل غير تابع لها. [مصادر الأصول](docs/asset-sources.md).
-
 </div>
 
-## أسماء المهارات
+## What has been tested?
 
-المهارات العامة هي `reel-edit` للمونتاج، و`reel-motion-kit` للحركات البسيطة، و`reel-review` للمراجعة. لم تعد أسماء المهارات مرتبطة باسم شخص. مكتبة الحركات والشروحات الأوسع مستقلة في [Arabic Motion Kit](https://github.com/abdallahkht/arabic-motion-kit).
+| Area | Status |
+| --- | --- |
+| Mac editor | Preview, trimming, restoring footage, timestamped notes and export have been tested. The native folder picker still needs a hands-on check. |
+| Motion examples | All six examples were rendered and checked for Arabic text, frame dimensions and individual frames. |
+| Skills | The three skills have setup instructions. A full test with a new member, from raw footage to the final export, is still pending. |
+| Windows and Linux | Launch instructions are available for both. End-to-end testing is still pending. |
+| Video formats | This release supports vertical 9:16 reels. Landscape YouTube editing is planned for a later release. |
+
+Upscaling to 2K or 4K cannot add detail that was missing from the original footage. The editor interface is in English, and the examples and community guides focus on Arabic reels. [Test details and limitations](docs/testing.md).
+
+## License
+
+Abdallah Khraisat shares Reel Studio with his community under the [MIT License](LICENSE). IBM Plex Sans Arabic comes with its own [font license](assets/fonts/OFL.txt). Claude and its logo belong to Anthropic. Reel Studio is an independent project with no affiliation with Anthropic. [Asset sources](docs/asset-sources.md).
+
+## Included skills
+
+| Skill | What it does |
+| --- | --- |
+| [`reel-edit`](skills/reel-edit/SKILL.md) | Edits raw footage into a vertical reel using your brief and optional references. |
+| [`reel-motion-kit`](skills/reel-motion-kit/SKILL.md) | Adds simple motion graphics such as titles, highlights and comparisons. |
+| [`reel-review`](skills/reel-review/SKILL.md) | Opens the finished edit in the local editor for notes and cut corrections. |
+
+For more animations and explainers, see the [Arabic Motion Kit](https://github.com/abdallahkht/arabic-motion-kit).
