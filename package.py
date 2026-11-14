@@ -5,11 +5,11 @@ import subprocess
 import zipfile
 
 ROOT=Path(__file__).resolve().parent
-VERSION='0.4.4'
+VERSION='0.4.5'
 
 def main():
     names=subprocess.check_output(['git','ls-files','-z'],cwd=ROOT).decode().split('\0')
-    target=ROOT/'_deploy'/'releases'/f'abdallah-reel-studio-v{VERSION}.zip'
+    target=ROOT/'_deploy'/'releases'/f'v{VERSION}'/'abdallah-reel-studio.zip'
     target.parent.mkdir(parents=True,exist_ok=True)
     if target.exists():raise SystemExit('Release ZIP exists; keep it or choose a new version.')
     with zipfile.ZipFile(target,'x',zipfile.ZIP_DEFLATED) as archive:

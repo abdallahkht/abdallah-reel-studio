@@ -16,7 +16,7 @@
   <a href="#workflow">طريقة العمل</a> &nbsp;·&nbsp;
   <a href="#review">المحرر</a> &nbsp;·&nbsp;
   <a href="#start">ابدأ هنا</a> &nbsp;·&nbsp;
-  <a href="https://github.com/abdallahkht/abdallah-reel-studio/releases/latest/download/abdallah-reel-studio-v0.4.4.zip"><b>تحميل ZIP</b></a>
+  <a href="https://github.com/abdallahkht/abdallah-reel-studio/releases/latest/download/abdallah-reel-studio.zip"><b>تحميل ZIP</b></a> &nbsp;·&nbsp; <a href="START-HERE.md">ابدأ من هنا</a>
 </p>
 
 <div dir="rtl">
@@ -86,7 +86,7 @@
 
 ## ابدأ هنا
 
-**[نزّل ZIP](https://github.com/abdallahkht/abdallah-reel-studio/releases/latest/download/abdallah-reel-studio-v0.4.4.zip)**، فك الضغط، وافتح المجلد في Claude Code أو Codex. ثم أرسل:
+**[نزّل ZIP](https://github.com/abdallahkht/abdallah-reel-studio/releases/latest/download/abdallah-reel-studio.zip)**، فك الضغط، وافتح المجلد في Claude Code أو Codex. ثم أرسل:
 
 > جهّز هذا المشروع وثبّت المهارات الموجودة فيه بدون استبدال مهاراتي الحالية. افحص Python وFFmpeg ثم افتح المحرر.
 
